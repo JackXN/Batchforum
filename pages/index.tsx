@@ -11,7 +11,6 @@ import {PostCard, Categories, PostWidget} from '../components';
 const posts = [
   {title: 'React Testing', excerpt: 'Learn React Testing'},
   {title: 'React Tailwind', excerpt: 'Learn React Testing'},
-  {title: 'Learn React tailwind', excerpt: 'Learn React Testing'},
 ]
 
 const Home: NextPage = () => {
