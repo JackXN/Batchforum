@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import moment from 'moment';
 import Link from 'next/link';
 
-import { getRecentPosts } from '../services';
+import { getRecentPosts, getSimilarPosts } from '../services';
 
 const PostWidget = ({categories, slug}) => {
 
@@ -10,14 +10,15 @@ const PostWidget = ({categories, slug}) => {
 
     useEffect(() => {
 if(slug) {
-    getSimilarPosts(category, slug)
+    getSimilarPosts(categories, slug)
     .then((result) => setRelatedPosts(result))
 }else {
-    getRecentPosts(category, slug)
+    getRecentPosts(categories, slug)
     .then((result) => setRelatedPosts(result))
 }
-    }, [input])
+    }, [slug])
 
+console.log(relatedPosts)
 
     return (
         <div>
