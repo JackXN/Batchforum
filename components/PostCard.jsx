@@ -31,7 +31,8 @@ const PostCard = ({post}) => {
                 height='30px'
                 width='30px'
                 className='align-middle rounded-full'
-                src='./avatar.png'
+                // src='./avatar.png'
+                src={post.author.photo.url}
                 />
                 </div>
             </div>
