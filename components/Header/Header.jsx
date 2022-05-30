@@ -4,11 +4,13 @@ import React, {useContext} from 'react'
 // Components
 import Link from 'next/link'
 
-
+//
 const categories = [
     {name: 'React', slug: 'react'},
     {name: 'Web Dev', slug: 'web-dev'}
 ]
+
+
 
 const Header = () => {
     return (
