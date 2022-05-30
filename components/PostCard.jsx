@@ -3,6 +3,9 @@ import React from 'react';
 // COmponents
 import Link from 'next/link';
 
+import photoUrl from '../public/bg.jpeg'
+
+
 
 const PostCard = ({post}) => {
     // console.log(post.author)
@@ -28,8 +31,7 @@ const PostCard = ({post}) => {
                 height='30px'
                 width='30px'
                 className='align-middle rounded-full'
-                src={post.author.photo.url}
-                
+                src='./avatar.png'
                 />
                 </div>
             </div>
