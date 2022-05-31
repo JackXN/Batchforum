@@ -26,7 +26,7 @@ const Header = () => {
             <div className='inline-block w-full py-8 border-b border-blue-400'>
                 <div className='block md:float-left'>
                     <Link href='/'>
-                        <span className='text-4xl font-bold text-white cursor-pointer'>
+                        <span className='text-4xl font-bold text-white cursor-pointer font-clash'>
                             The Jack Track
                         </span>
                     </Link>

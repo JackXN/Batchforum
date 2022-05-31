@@ -11,7 +11,7 @@ const PostCard = ({post}) => {
     // console.log(post.author)
     console.log(post)
     return (
-        <div className='p-0 pb-12 mb-8 bg-white rounded-lg shadow-lg lg:p-8'>
+        <div className='p-0 pb-12 mb-8 bg-gray-800 rounded-lg shadow-lg lg:p-8'>
             <div className='relative mb-6 overflow-hidden shadow-md pb-80'>
                 <img 
                 src={post.featuredImage.url}
