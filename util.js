@@ -1,1 +1,1 @@
-export const graphCMSImageLoad = ({src}) => src;
+export const graphCMSImageLoader = ({src}) => src;
