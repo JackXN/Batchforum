@@ -21,8 +21,8 @@ if(slug) {
 console.log(relatedPosts)
 
 return (
-    <div className="p-8 pb-12 mb-8 bg-white rounded-lg shadow-lg">
-      <h3 className="pb-4 mb-8 text-xl font-semibold border-b">{slug ? 'Related Posts' : 'Recent Posts'}</h3>
+    <div className="p-8 pb-12 mb-8 bg-gray-800 rounded-lg shadow-lg">
+      <h3 className="pb-4 mb-8 text-xl font-semibold text-white border-b border-emerald-400">{slug ? 'Related Posts' : 'Recent Posts'}</h3>
       {relatedPosts.map((post, index) => (
         <div key={index} className="flex items-center w-full mb-4">
           <div className="flex-none w-16">
@@ -35,8 +35,10 @@ return (
             />
           </div>
           <div className="flex-grow ml-4">
-            <p className="text-gray-500 font-xs">{moment(post.createdAt).format('MMM DD, YYYY')}</p>
+            <p className="text-gray-400 rounded-lg font-xs">{moment(post.createdAt).format('MMM DD, YYYY')}</p>
+            <span className='text-gray-400'>
             <Link href={`/post/${post.slug}`} className="text-md" key={index}>{post.title}</Link>
+            </span>
           </div>
         </div>
       ))}

@@ -11,7 +11,7 @@ import {PostCard, Categories, PostWidget} from '../components';
 
 export default function Home ({posts}) {
   return (
-    <div className="container px-10 mx-auto mb-8 bg-gray-300">
+    <div className="container px-10 mx-auto mb-8 ">
       <Head>
         <title>The Jack Track</title>
         <link rel="icon" href="/favicon.ico" />
