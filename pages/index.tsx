@@ -13,7 +13,7 @@ export default function Home ({posts}) {
   return (
     <div className="container px-10 mx-auto mb-8 ">
       <Head>
-        <title>The Jack Track</title>
+        <title>The Batch Forum</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className='grid grid-cols-1 gap-12 lg:grid-cols-12'>
