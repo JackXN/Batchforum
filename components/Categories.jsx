@@ -19,7 +19,7 @@ const Categories = () => {
       <h3 className="pb-4 mb-8 text-xl font-light text-white border-b font-sourceL border-emerald-400">Categories</h3>
       {categories.map((category, index) => (
         <Link key={index} href={`/category/${category.slug}`}>
-          <span className={`cursor-pointer border-emerald-400 text-white block ${(index === categories.length - 1) ? 'border-b-0 '  : 'border-b'} pb-3 mb-3` }>{category.name}</span>
+          <span className={`cursor-pointer border-emerald-400 text-white font-source block ${(index === categories.length - 1) ? 'border-b-0 '  : 'border-b'} pb-3 mb-3` }>{category.name}</span>
         </Link>
       ))}
     </div>
