@@ -22,7 +22,7 @@ console.log(relatedPosts)
 
 return (
     <div className="p-8 pb-12 mb-8 bg-gray-800 rounded-lg shadow-lg">
-      <h3 className="pb-4 mb-8 text-xl font-semibold text-white border-b border-emerald-400">{slug ? 'Related Posts' : 'Recent Posts'}</h3>
+      <h3 className="pb-4 mb-8 text-xl font-light text-white border-b font-sourceL border-emerald-400">{slug ? 'Related Posts' : 'Recent Posts'}</h3>
       {relatedPosts.map((post, index) => (
         <div key={index} className="flex items-center w-full mb-4">
           <div className="flex-none w-16">
