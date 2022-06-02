@@ -26,8 +26,8 @@ const Header = () => {
             <div className='inline-block w-full py-8 border-b border-emerald-400'>
                 <div className='block md:float-left'>
                     <Link href='/'>
-                        <span className='text-4xl font-light font-bold text-white cursor-pointer font-sourceL'>
-                            <span className='font-light ext-4xl text-emerald-400'>C:\ </span> 
+                        <span className='text-3xl font-light text-white cursor-pointer font-sourceL'>
+                            <span className='text-3xl font-light text-emerald-400'>C:\ </span> 
                             <Typed
                     strings={['BATCH FORUM']}
                     typeSpeed={100}
