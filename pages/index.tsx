@@ -2,7 +2,7 @@ import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 
-export default function Home({ posts }) {
+export default function Home({ posts } : {posts: string}) {
   return (
     <div className="container px-10 mx-auto mb-8">
       <FeaturedPosts />
