@@ -7,7 +7,7 @@ import { getCategories } from '../../services';
 
 //
 
-
+import Typed from 'react-typed'
 
 
 const Header = () => {
@@ -28,7 +28,11 @@ const Header = () => {
                     <Link href='/'>
                         <span className='text-4xl font-bold text-white cursor-pointer font-clash'>
                             <span className='font-bold ext-4xl text-emerald-400'>C : \</span> 
-                            The Batch Forum
+                            <Typed
+                    strings={['Batch forum']}
+                    typeSpeed={100}
+                    styled={'red'}
+                />
                         </span>
                     </Link>
                 </div>
