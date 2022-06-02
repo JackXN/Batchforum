@@ -7,6 +7,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       clash: ['Clash Display'], 
+      source: ['Source Code Pro'],
+      sourceL: ['Source Code Pro']
     }
   },
   plugins: [],

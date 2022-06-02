@@ -26,10 +26,10 @@ const Header = () => {
             <div className='inline-block w-full py-8 border-b border-emerald-400'>
                 <div className='block md:float-left'>
                     <Link href='/'>
-                        <span className='text-4xl font-bold text-white cursor-pointer font-clash'>
-                            <span className='font-bold ext-4xl text-emerald-400'>C : \</span> 
+                        <span className='text-4xl font-light font-bold text-white cursor-pointer font-sourceL'>
+                            <span className='font-light ext-4xl text-emerald-400'>C:\ </span> 
                             <Typed
-                    strings={['Batch forum']}
+                    strings={['BATCH FORUM']}
                     typeSpeed={100}
                     styled={'red'}
                 />
