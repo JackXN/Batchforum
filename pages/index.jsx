@@ -1,5 +1,5 @@
 import { FeaturedPosts } from '../sections/index';
-import { PostCard, Categories, PostWidget } from '../components';
+import { PostCard, Categories, PostWidget, Footer} from '../components';
 import { getPosts } from '../services';
 import Head from 'next/head'
 import React, {useEffect} from 'react';
@@ -37,6 +37,7 @@ export default function Home({ posts} ) {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   </>
   );
