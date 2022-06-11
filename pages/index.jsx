@@ -16,7 +16,7 @@ export default function Home({ posts} ) {
   return (
     <>
     <Head>
-    <title>Jack Rigan</title>
+    <title>BF</title>
     <meta name='description' content='Jack Rigan is a fullstack developer that enjoys'/>
     <meta property='og:title' content='Full-Stack Web Developer'/>  
     <link rel="shortcut icon" href="/favicon.ico" />

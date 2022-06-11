@@ -46,4 +46,4 @@ return (
   );
 }
 
-export default PostWidget
+export default PostWidget 
