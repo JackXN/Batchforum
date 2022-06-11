@@ -16,9 +16,9 @@ export default function Home({ posts} ) {
   return (
     <>
     <Head>
-    <title>BF</title>
-    <meta name='description' content='Jack Rigan is a fullstack developer that enjoys'/>
-    <meta property='og:title' content='Full-Stack Web Developer'/>  
+    <title>Batchforum - Tech Discussions & Resources</title>
+    <meta name='description' content='Batchforum - Tech discussions, topics, resources and blogs.'/>
+    <meta property='og:title' content='Tech discussions, topics, resources and blogs'/>  
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
     </Head>
