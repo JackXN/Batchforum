@@ -18,7 +18,7 @@ if(slug) {
 }
     }, [slug])
 
-console.log(relatedPosts)
+// console.log(relatedPosts)
 
 return (
     <div className="p-8 pb-12 mb-8 bg-gray-800 rounded-lg shadow-lg" data-aos='fade-down' data-aos-duration='1000' data-aos-delay='100'>
