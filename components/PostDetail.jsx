@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Head from 'next/head';
 import moment from 'moment';
 
 const PostDetail = ({ post }) => {
@@ -44,6 +44,9 @@ const PostDetail = ({ post }) => {
 
   return (
     <>
+    <Head>
+<title>Batchforum - {post.title}</title>
+    </Head>
       <div className="pb-12 mb-8 text-gray-500 bg-gray-800 rounded-lg shadow-lg lg:p-8">
         <div className="relative mb-6 overflow-hidden shadow-md">
           <img src={post.featuredImage.url} alt="" className="object-cover object-top w-full h-full rounded-t-lg shadow-lg lg:rounded-lg" />
