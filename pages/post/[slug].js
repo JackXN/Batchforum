@@ -3,7 +3,13 @@ import { RichText } from '@graphcms/rich-text-react-renderer';
 import { getPostDetails, getPosts} from '../../services';
  import { useRouter } from 'next/router';
 import {PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader} from '../../components';
+import { graphCMSImageLoader } from '../../util';
+import { GraphQLClient } from 'graphql-request';
 
+
+const graphcms = new GraphQLClient(
+  'https://api-eu-central-1.graphcms.com/v2/ck8sn5tnf01gc01z89dbc7s0o/master'
+);
 
 
 const PostDetails = ( {post} ) => {
@@ -42,6 +48,22 @@ export async function getStaticProps({params}) {
     // return posts or return empty array
     const data = await getPostDetails(params.slug);
   
+  
+    // const post = await graphcms.request(
+    //   `
+    //   query PostPageQuery($slug: String!) {
+    //     name
+    //     content {
+    //       raw
+    //     }
+    //   }
+    //   `,
+    //   {
+    //     slug: params.slug,
+    //   }
+    // );
+    
+  
   return {
       props: { post: data}
     }
@@ -61,7 +83,7 @@ export async function getStaticProps({params}) {
   export const SlugPage = ({post})  => (
     <>
       <h1>{post.Author}</h1>
-      <RichText content={post.content.raw.children}/>
+      {/* <RichText content={post.content.raw.children}/> */}
     </>
   )
 
