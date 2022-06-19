@@ -2,7 +2,7 @@ import React from 'react';
 
 import { getPostDetails, getPosts} from '../../services';
  import { useRouter } from 'next/router';
-
+import {RichText} from 'graphql-request';
 import {PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader} from '../../components';
 
 
@@ -32,6 +32,7 @@ const PostDetails = ( {post} ) => {
                 </div>
             </div>
         </div>
+        <RichText content={post.content.raw.children}/>
         </>
     )
 }

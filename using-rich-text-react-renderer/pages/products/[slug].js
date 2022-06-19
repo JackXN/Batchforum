@@ -10,7 +10,7 @@ export async function getStaticProps({ params }) {
   const { product } = await graphcms.request(
     `
     query ProductPageQuery($slug: String!) {
-      product(where: { slug: $slug }) {
+      post(where: { slug: $slug }) {
         name
         content {
           raw
@@ -50,7 +50,6 @@ export async function getStaticPaths() {
 const ProductPage = ({ product }) => (
   <React.Fragment>
     <h1>{product.name}</h1>
-
     <RichText content={product.content.raw.children} />
   </React.Fragment>
 );
