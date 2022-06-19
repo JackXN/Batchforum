@@ -47,11 +47,11 @@ export async function getStaticPaths() {
   };
 }
 
-const ProductPage = ({ product }) => (
+export const ProductPage = ({ product }) => (
   <React.Fragment>
     <h1>{product.name}</h1>
     <RichText content={product.content.raw.children} />
   </React.Fragment>
 );
 
-export default ProductPage;
+

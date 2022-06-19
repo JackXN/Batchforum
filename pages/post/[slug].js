@@ -1,8 +1,7 @@
 import React from 'react';
-
+import { RichText } from '@graphcms/rich-text-react-renderer';
 import { getPostDetails, getPosts} from '../../services';
  import { useRouter } from 'next/router';
-import {RichText} from 'graphql-request';
 import {PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader} from '../../components';
 
 
@@ -58,3 +57,12 @@ export async function getStaticProps({params}) {
       fallback: true,
     };
   }
+
+  export const SlugPage = ({post})  => (
+    <>
+      <h1>{post.Author}</h1>
+      <RichText content={post.content.raw.children}/>
+    </>
+  )
+
+  
