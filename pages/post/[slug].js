@@ -13,6 +13,12 @@ const graphcms = new GraphQLClient(
 
 
 const PostDetails = ( {post} ) => {
+
+
+const content = {
+  
+}
+
   const router = useRouter();
   if(router.isFallback) {
     return <Loader/>
