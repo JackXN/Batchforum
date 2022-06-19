@@ -26,7 +26,7 @@ const PostDetail = ({ post }) => {
       case 'paragraph':
         return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
       case 'heading-four':
-        return <h4 key={index} className="mb-4 text-xl font-bold text-gray-200 ">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
+        return <h4 key={index} className="mb-4 text-xl font-bold text-white ">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
         case 'code-block':
           return (
             <div className='p-3 rounded-lg bg-neutral-300'>
