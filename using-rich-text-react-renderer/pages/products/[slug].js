@@ -22,13 +22,13 @@ export async function getStaticProps({ params }) {
       slug: params.slug,
     }
   );
-
   return {
     props: {
       product,
     },
   };
 }
+
 
 export async function getStaticPaths() {
   const { products } = await graphcms.request(`
