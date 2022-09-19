@@ -7,7 +7,7 @@ import { getCategories } from '../../services';
 
 //
 
-import Typed from 'react-typed'
+import Typed from 'react-typed';
 
 
 const Header = () => {
