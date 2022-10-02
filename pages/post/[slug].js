@@ -43,7 +43,7 @@ const content = {
                 </div>
             </div>
         </div>
-        <RichText content={post.content.raw.children}/>
+        {/* <RichText content={post.content.raw.children}/> */}
         </>
     )
 }
