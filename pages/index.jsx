@@ -13,10 +13,11 @@ export default function Home({ posts} ) {
 
 
 
+
   return (
     <>
     <Head>
-    <title>Batchforum - Tech Discussions & Resources</title>
+    <title>Batchforum</title>
     <meta name='description' content='Batchforum - Tech discussions, topics, resources and blogs.'/>
     <meta property='og:title' content='Tech discussions, topics, resources and blogs'/>  
     <link rel="shortcut icon" href="/favicon.ico" />
