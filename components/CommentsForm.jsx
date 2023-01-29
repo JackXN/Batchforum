@@ -75,8 +75,8 @@ const CommentsForm = ({ slug }) => {
   };
 
   return (
-    <div className="p-8 pb-12 mb-8 bg-gray-800 rounded-lg shadow-lg">
-      <h3 className="pb-4 mb-8 text-xl font-semibold text-white border-b border-emerald-400">Leave a Reply</h3>
+    <div className="p-8 pb-12 mb-8 bg-gray-800 rounded-lg shadow-lg thisOne">
+      <h3 className="pb-4 mb-8 text-xl font-semibold text-white border-b border-blue-400">Leave a Reply</h3>
       <div className="grid grid-cols-1 gap-4 mb-4">
         <textarea value={formData.comment} onChange={onInputChange} className="w-full h-40 p-4 bg-gray-100 rounded-lg outline-none focus:ring-2 focus:ring-gray-200" name="comment" placeholder="Comment" />
       </div>
@@ -92,8 +92,8 @@ const CommentsForm = ({ slug }) => {
       </div>
       {error && <p className="text-xs text-red-500">All fields are required</p>}
       <div className="mt-8">
-        <button type="button" onClick={handlePostSubmission} className="inline-block px-8 py-3 text-lg font-medium text-white transition duration-500 rounded-full cursor-pointer bg-emerald-400 ease hover:bg-indigo-900">Post Comment</button>
-        {showSuccessMessage && <span className="float-right mt-3 text-xl font-semibold text-emerald-400">Comment submitted for review</span>}
+        <button type="button" onClick={handlePostSubmission} className="inline-block px-8 py-3 text-lg font-medium text-white transition duration-500 bg-blue-400 rounded-full cursor-pointer ease hover:bg-indigo-900">Post Comment</button>
+        {showSuccessMessage && <span className="float-right mt-3 text-xl font-semibold text-white">Comment submitted for review</span>}
       </div>
     </div>
   );

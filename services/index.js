@@ -39,6 +39,23 @@ export const getPosts = async () => {
   return result.postsConnection.edges;
 };
 
+
+export const getReadTime = async () => {
+  const query = gql`
+  query getReadTime {
+    getTime {
+      time
+    }
+  }
+  `
+
+  const result = await request(graphqlAPI, query);
+  return result.getTime;
+};
+
+
+
+
 export const getCategories = async () => {
   const query = gql`
     query GetGategories {

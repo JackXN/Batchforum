@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { getReadTime } from '../services';
 import Tilt from "react-parallax-tilt";
 
 const FeaturedPostCard = ({ post }) => (
@@ -22,7 +22,7 @@ const FeaturedPostCard = ({ post }) => (
           width="30px"
           className="align-middle rounded-full drop-shadow-lg hover:"
           src={post.author.photo.url}
-        />
+        /> 
         <p className="inline ml-2 font-medium text-white align-middle text-shadow" data-aos='fade-in' data-aos-duration='2000' data-aos-delay='500' >{post.author.name}</p>
       </div>
     </div>
@@ -32,3 +32,5 @@ const FeaturedPostCard = ({ post }) => (
 );
 
 export default FeaturedPostCard;
+
+

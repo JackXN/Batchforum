@@ -53,20 +53,20 @@ const PostDetail = ({ post }) => {
     <Head>
 <title>Batchforum - {post.title}</title>
     </Head>
-      <div className="pb-12 mb-8 text-gray-500 bg-gray-800 rounded-lg shadow-lg lg:p-8">
+      <div className="pb-12 mb-8 text-gray-300 bg-gray-800 shadow-lg 0rounded-lg lg:p-8 thisOne contentText">
         <div className="relative mb-6 overflow-hidden shadow-md">
           <img src={post.featuredImage.url} alt="" className="object-cover object-top w-full h-full rounded-t-lg shadow-lg lg:rounded-lg" />
         </div>
         <div className="px-4 lg:px-0">
           <div className="flex items-center w-full mb-8">
             <div className="items-center justify-center hidden mr-8 md:flex lg:mb-0 lg:w-auto">
-              {/* <img
+              <img
                 alt={post.author.name}
                 height="30px"
                 width="30px"
                 className="align-middle rounded-full"
                 src={post.author.photo.url}
-              /> */}
+              />
               <p className="inline ml-2 text-lg font-medium text-gray-500 align-middle">{post.author.name}</p>
             </div>
             <div className="font-medium text-gray-700">

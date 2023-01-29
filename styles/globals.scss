@@ -7,6 +7,8 @@
 @import url('http://fonts.cdnfonts.com/css/clash-display');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
 
 html,
 body {
@@ -19,9 +21,10 @@ body {
     width: 100%;
     height: 100vh;
     //background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);
-    // background: #D3D3D3;
+    // background: #26262A;
+    background: #19181B;
     // background-image: url("../public/bg.jpeg");
-    background-image: url('../public/backgroundTwo.png');
+    // background-image: url('../public/backgroundTwo.png');
     // position: fixed;
     position: fixed;
     left: 0;
@@ -67,4 +70,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.thisOne {
+  background-color: #26262A !important;
+}
+
+
+.contentText {
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
 }
