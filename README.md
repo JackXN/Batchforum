@@ -21,7 +21,7 @@ Batch forum is a technical blog developed by [Jack Rigan](http://jackrigan.com/)
 - Rich text editing and formatting.
 - Search function to easily find topics and posts.
 - User-friendly interface and responsive design.
-
+:eight_spoked_asterisk:
 
 ## List of Key Dependencies & Tools
 - [Next.js](https://nextjs.org/) with [Jest](https://jestjs.io/)
