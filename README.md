@@ -16,11 +16,11 @@ Batch forum is a technical blog developed by [Jack Rigan](http://jackrigan.com/)
 
 
 ## Features
-:eight_spoked_asterisk: User authentication and authorization.
-:eight_spoked_asterisk: Creation and management of blog posts & comments.
-:eight_spoked_asterisk: Rich text editing and formatting.
-:eight_spoked_asterisk: Search function to easily find topics and posts.
-:eight_spoked_asterisk: User-friendly interface and responsive design.
+- :eight_spoked_asterisk: User authentication and authorization.
+- :eight_spoked_asterisk: Creation and management of blog posts & comments.
+- :eight_spoked_asterisk: Rich text editing and formatting.
+- :eight_spoked_asterisk: Search function to easily find topics and posts.
+- :eight_spoked_asterisk: User-friendly interface and responsive design.
 
 
 ## List of Key Dependencies & Tools
@@ -31,17 +31,6 @@ Batch forum is a technical blog developed by [Jack Rigan](http://jackrigan.com/)
 - [Typescript](https://www.typescriptlang.org/)
 - [GraphQL](https://circleci.com/blog/introduction-to-graphql/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--uscan-en-dsa-maxConv-auth-nb&utm_term=g_-_c__dsa_&utm_content=)
 
-
-
-## Getting Started
-To get started with BatchForum, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/jackxn/batchforum.git`
-2. Install the dependencies: `npm install`
-3. Start the development server: `npm run dev`
-
-## Usage
-Once the development server is running, navigate to `http://localhost:3000` to access the forum. 
 
 ## Contributing
 BatchForum is an open source project and contributions are welcome! If you'd like to contribute, please read the [contributing guidelines](https://github.com/jackxn/batchforum/blob/master/CONTRIBUTING.md) before submitting a pull request.
