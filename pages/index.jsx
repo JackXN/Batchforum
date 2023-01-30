@@ -1,7 +1,6 @@
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget, Footer} from '../components';
 import { getPosts } from '../services';
-import Head from 'next/head'
 import React, {useEffect} from 'react';
 import AOS from 'aos';
 export default function Home({ posts} ) {
@@ -16,19 +15,6 @@ export default function Home({ posts} ) {
 
   return (
     <>
-    <Head>
-    <title>Batchforum</title>
-    <meta name='description' content='Batchforum - Tech discussions, topics, resources and blogs.'/>
-    <meta property='og:title' content='Tech discussions, topics, resources and blogs'/>  
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-
-
-
-
-
-    
-    </Head>
     <div className="container px-10 mx-auto mb-8">
       <FeaturedPosts />
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">

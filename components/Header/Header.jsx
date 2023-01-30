@@ -20,9 +20,9 @@ const Header = () => {
 
 
     return (
-        <div className='container px-10 mx-auto mb-8'>
+        <div className='container px-10 mx-auto mb-8 '>
             <div className='inline-block w-full py-8 border-b border-blue-400'>
-                <div className='block text-red-500 md:float-left'>
+                <div className='block md:float-left'>
                     <Link href='/' cursor='pointer'>
                 <Image src={Logo} alt='Batchforum Logo' style={{cursor: 'pointer'}} /> 
                 </Link>
@@ -30,7 +30,7 @@ const Header = () => {
                 <div className='hidden md:float-left md:contents'>
                     {categories.map((category) => (
                         <Link key={category.slug} href={`/category/${category.slug}`}>
-                            <span className='mt-2 ml-4 font-light text-white align-middle cursor-pointer hover:text-emerald-400 font-source md:float-right'>
+                            <span className='mt-10 ml-4 font-light text-white align-middle cursor-pointer hover:text-blue-400 font-source md:float-right navItems'>
                                 {category.name} <span className='font-bold text-blue-400 thisOne'>| </span>
                             </span>
                         </Link>
