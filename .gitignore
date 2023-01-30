@@ -39,6 +39,4 @@ yarn-error.log*
 *.tsbuildinfo
 
 
-// readme assets
-./readme-assets
-/readme-assets
+
