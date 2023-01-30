@@ -16,15 +16,15 @@ Batch forum is a technical blog developed by [Jack Rigan](http://jackrigan.com/)
 
 
 ## Features
-- User authentication and authorization.
-- Creation and management of blog posts & comments.
-- Rich text editing and formatting.
-- Search function to easily find topics and posts.
-- User-friendly interface and responsive design.
-:eight_spoked_asterisk:
+:eight_spoked_asterisk: User authentication and authorization.
+:eight_spoked_asterisk: Creation and management of blog posts & comments.
+:eight_spoked_asterisk: Rich text editing and formatting.
+:eight_spoked_asterisk: Search function to easily find topics and posts.
+:eight_spoked_asterisk: User-friendly interface and responsive design.
+
 
 ## List of Key Dependencies & Tools
-- [Next.js](https://nextjs.org/) with [Jest](https://jestjs.io/)
+- [Next.js](https://nextjs.org/)
 - [Redux Toolkit Query](https://redux-toolkit.js.org/tutorials/rtk-query)
 - [TailwindCSS](https://tailwindcss.com/) & [TailwindUI](https://tailwindui.com/)
 - [graphCMS](https://hygraph.com/?utm_term=hygraph&utm_campaign=EN_GL_Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=2816788452&hsa_cam=17743993835&hsa_grp=141602476209&hsa_ad=610084431591&hsa_src=g&hsa_tgt=kwd-1681477926128&hsa_kw=hygraph&hsa_mt=p&hsa_net=adwords&hsa_ver=3)
