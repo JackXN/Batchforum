@@ -3,7 +3,6 @@ import React from 'react';
 // COmponents
 import Link from 'next/link';
 
-import photoUrl from '../public/bg.jpeg'
 
 import moment from 'moment';
 

@@ -1,6 +1,7 @@
 import { FeaturedPosts } from '../sections/index';
 import { PostCard, Categories, PostWidget, Footer} from '../components';
 import { getPosts } from '../services';
+import Head from 'next/head'
 import React, {useEffect} from 'react';
 import AOS from 'aos';
 export default function Home({ posts} ) {
@@ -15,6 +16,7 @@ export default function Home({ posts} ) {
 
   return (
     <>
+  
     <div className="container px-10 mx-auto mb-8">
       <FeaturedPosts />
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">

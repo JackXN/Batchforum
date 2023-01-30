@@ -10,7 +10,6 @@ const _document = () => {
         <Head>
 <meta charSet='utf-8'/>
 <meta content='IE=edge'/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  <title>Jack Rigan</title>
  <meta property='title' content='Batch Forum'/>
  <meta name='instagram:title' content='Batch Forum'/>
@@ -22,6 +21,7 @@ const _document = () => {
  <meta property='og:title' content='Batch Forum'/>  
  <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 </Head>
 <body>
 <Main/>
