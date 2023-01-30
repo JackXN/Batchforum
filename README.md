@@ -1,22 +1,36 @@
-# Next.js + Tailwind CSS Examp
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# BatchForum
+A simple, lightweight web forum for discussion and communication within a group.
 
-## Deploy your own
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Overview
+BatchForum is a simple web forum that allows for discussion and communication within a group. It's lightweight, easy to use, and customizable to fit the needs of your community.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Features
+- User authentication and authorization
+- Creation and management of discussion forums and threads
+- Rich text editing and formatting using Markdown
+- Search function to easily find topics and posts
+- User-friendly interface and responsive design
 
-## How to use
+## Getting Started
+To get started with BatchForum, follow these steps:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+1. Clone the repository: `git clone https://github.com/jackxn/batchforum.git`
+2. Install the dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Usage
+Once the development server is running, navigate to `http://localhost:3000` to access the forum. 
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Contributing
+BatchForum is an open source project and contributions are welcome! If you'd like to contribute, please read the [contributing guidelines](https://github.com/jackxn/batchforum/blob/master/CONTRIBUTING.md) before submitting a pull request.
+
+## License
+BatchForum is licensed under the [MIT License](https://github.com/jackxn/batchforum/blob/master/LICENSE).

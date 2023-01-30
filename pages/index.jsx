@@ -11,9 +11,6 @@ export default function Home({ posts} ) {
     AOS.init({})
   }, [])
 
-
-
-
   return (
     <>
     <Head>
