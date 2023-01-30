@@ -26,13 +26,17 @@ const PostDetail = ({ post }) => {
       case 'paragraph':
         return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
       case 'heading-four':
-        return <h4 key={index} className="mb-4 text-xl font-bold text-white ">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
-        case 'code-block':
+        return <h4 key={index} className="mb-4 text-4xl font-bold text-white ">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
+        case 'code_block':
           return (
             <div className='p-3 rounded-lg bg-neutral-300'>
             <p className='text-gray-800'>{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>
             </div>
-          )
+          );
+          case 'h6':
+            return <span key={index} className="mb-4 text-4xl font-bold text-orange ">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</span>;
+          case 'code':
+            return <span style={{color:'orange'}}>{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</span>;
       case 'image':
         return (
           <img
@@ -76,7 +80,7 @@ const PostDetail = ({ post }) => {
               <span className="text-gray-500 align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
             </div>
           </div>
-          <h1 className="mb-8 text-3xl font-semibold text-white">{post.title}</h1>
+          <h1 className="mb-8 text-4xl font-bold text-white">{post.title}</h1>
           {post.content.raw.children.map((typeObj, index) => {
             const children = typeObj.children.map((item, itemindex) => getContentFragment(itemindex, item.text, item));
 
