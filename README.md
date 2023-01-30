@@ -1,5 +1,5 @@
-# BatchForum
-A simple, lightweight web forum for discussion and communication within a group.
+# Batch Forum
+A web forum for discussion and communication within a group.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -8,6 +8,9 @@ A simple, lightweight web forum for discussion and communication within a group.
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+![dashboard](./readme-assets/readme-banner.png)
+
 
 ## Overview
 BatchForum is a simple web forum that allows for discussion and communication within a group. It's lightweight, easy to use, and customizable to fit the needs of your community.
