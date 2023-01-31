@@ -37,3 +37,37 @@ BatchForum is an open source project and contributions are welcome! If you'd lik
 
 ## License
 BatchForum is licensed under the [MIT License](https://github.com/jackxn/batchforum/blob/master/LICENSE).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
