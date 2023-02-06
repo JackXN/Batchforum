@@ -63,7 +63,7 @@ export const getPostDetails = async (slug) => {
         title
         excerpt
         featuredImage {
-          url
+          ur
         }
         author{
           name
