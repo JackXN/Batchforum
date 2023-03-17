@@ -10,6 +10,9 @@ const PostDetail = ({ post }) => {
       if (obj.bold) {
         modifiedText = (<b key={index}>{text}</b>);
       }
+if(obj) {
+  con
+}
 
       if (obj.italic) {
         modifiedText = (<em key={index}>{text}</em>);
@@ -83,7 +86,6 @@ const PostDetail = ({ post }) => {
           <h1 className="mb-8 text-4xl font-bold text-white">{post.title}</h1>
           {post.content.raw.children.map((typeObj, index) => {
             const children = typeObj.children.map((item, itemindex) => getContentFragment(itemindex, item.text, item));
-
             return getContentFragment(index, children, typeObj, typeObj.type);
           })}
         </div>
