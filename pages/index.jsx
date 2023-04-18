@@ -14,7 +14,7 @@ export default function Home({ posts} ) {
   return (
     <>
     <Head>
-      <title>Batch Forum</title>
+      <title>test</title>
     </Head>
     <div className="container px-10 mx-auto mb-8">
       <FeaturedPosts />
