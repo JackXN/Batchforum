@@ -10,7 +10,7 @@ const _document = () => {
         <Head>
 <meta charSet='utf-8'/>
 <meta content='IE=edge'/>
- <meta property='title' content='Batch Forum'/>
+ <meta property='title' content='test'/>
  <meta name='instagram:title' content='Batch Forum'/>
  <meta name='description' content='Developer resources and tech blog. Learn about control systems, Docker, Penetration Testing, Hardware & Development'/>
  <meta property='og:type' content='website'/>
