@@ -1,9 +1,5 @@
 import React from 'react';
 import {Html, Head, Main, NextScript} from 'next/document';
-
-
-// NOTE: THIS FILE IS ONLY RENDERED ON THE SERVER
-
 const _document = () => {
     return (
         <Html>
